@@ -7,9 +7,6 @@ fi
 echo "\033[0;34mCloning Oh My Zsh...\033[0m"
 /usr/bin/env git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
-echo "\033[0;34mCopying your current PATH and adding it to the end of ~/.zshrc for you.\033[0m"
-echo "export PATH=$PATH" >> ~/.zshrc
-
 echo "\033[0;34mTime to change your default shell to zsh!\033[0m"
 chsh -s `which zsh`
 
